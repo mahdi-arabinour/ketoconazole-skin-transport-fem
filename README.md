@@ -82,7 +82,7 @@ Citation metadata are provided in `CITATION.cff`. Please also cite the source ex
 
 ## License
 
-A software license should be selected before the repository is made public. Until then, no permission for reuse is granted beyond viewing the private repository.
+This repository is distributed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 
