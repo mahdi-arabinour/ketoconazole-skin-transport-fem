@@ -1,0 +1,12 @@
+figure_label,recommended_location,figure_title,file_png,purpose,file_exists
+Figure 2,Main text,Experimental receptor permeation and skin-retention profiles,outputs/figures/figure_experimental_input_profiles.png,"Digitized receptor, SC, and EP/dermis profiles used in the analysis.",True
+Figure 3A-B,Main text,Selected receptor-time fits,outputs/figures/case1_case2_receptor_fit_comparison.png,Selected Free KC and KLZ-NP receptor-time fits.,True
+Figure 3C-D / Figure S2,Main text and Supplementary,Experimental versus model-predicted 24 h measured compartments,outputs/figures/endpoint_experimental_vs_model_measured_compartments_24h.png,"Calibration endpoint comparison for SC, EP/dermis, and receptor.",True
+Figure 4,Main text,Selected skin-layer concentration profiles,outputs/figures/figure4_FINAL_journal_ready_skin_layer_profiles.png,Model-derived spatial concentration profiles in SC and EP/dermis.,True
+Figure S1,Supplementary,Mesh sensitivity of 24 h endpoints,outputs/figures/mesh_independence_24h_endpoint_sensitivity.png,Relative differences versus the fine mesh.,True
+Figure S3a,Supplementary,Case 1 receptor residuals,outputs/figures/case1_receptor_residuals.png,Residual diagnostic for the Case 1 fits.,True
+Figure S3b,Supplementary,Case 2 receptor residuals,outputs/figures/case2_receptor_residuals.png,Residual diagnostic for the Case 2 fits.,True
+Figure S4,Supplementary,Full computational-domain concentration profiles,outputs/figures/supplementary_full_computational_domain_concentration_profiles.png,"Model-derived profiles across donor, SC, EP/dermis, and receptor domains.",True
+Figure S5,Supplementary,Receptor concentration-time profiles,outputs/figures/receptor_concentration_time_profiles.png,Amount-to-concentration conversion for the receptor compartment.,True
+Figure S6,Supplementary,24 h compartment amount distribution,outputs/figures/endpoint_compartment_amount_distribution_24h.png,"Model-predicted donor, SC, EP/dermis, and receptor amounts.",True
+Figure S7,Supplementary,24 h average concentration by compartment,outputs/figures/endpoint_compartment_average_concentration_24h.png,Average concentration normalized by compartment thickness.,True

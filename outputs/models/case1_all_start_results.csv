@@ -1,0 +1,17 @@
+formulation,start_index,objective,success,message
+Free KC,0,0.013528029266496528,True,`xtol` termination condition is satisfied.
+Free KC,1,0.16018065293038083,True,`xtol` termination condition is satisfied.
+Free KC,2,0.028207499860345327,True,`xtol` termination condition is satisfied.
+Free KC,3,1.4826129208765413,True,`xtol` termination condition is satisfied.
+Free KC,4,0.25998792180533037,True,`xtol` termination condition is satisfied.
+Free KC,5,0.0031051639798891756,True,`xtol` termination condition is satisfied.
+Free KC,6,0.08324522096989528,True,`xtol` termination condition is satisfied.
+Free KC,7,0.0012153341600081202,True,`xtol` termination condition is satisfied.
+KLZ-NPs,0,0.1863905817384346,True,`xtol` termination condition is satisfied.
+KLZ-NPs,1,0.0008825091146205189,True,`xtol` termination condition is satisfied.
+KLZ-NPs,2,0.002764501836134358,True,`xtol` termination condition is satisfied.
+KLZ-NPs,3,0.0008369315694434062,True,`xtol` termination condition is satisfied.
+KLZ-NPs,4,0.9496958336683692,True,`xtol` termination condition is satisfied.
+KLZ-NPs,5,0.00037584602239666655,True,`xtol` termination condition is satisfied.
+KLZ-NPs,6,0.0018719785421643402,True,`xtol` termination condition is satisfied.
+KLZ-NPs,7,0.2356607373618046,True,`xtol` termination condition is satisfied.

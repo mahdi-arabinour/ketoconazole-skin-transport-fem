@@ -1,0 +1,3 @@
+formulation,Case_1_objective,Case_2_objective,objective_improvement_percent,Case_1_receptor_RMSE,Case_2_receptor_RMSE,RMSE_improvement_percent,Case_2_P23_SC_EP,recommended_role,interpretation
+Free KC,0.0012153341600081,0.0011938664115175,1.7664070670454115,0.9265629861229528,0.9245048456272272,0.22212634505696763,1.000158407413454,Use Case 1 as the main conservative model,Case 2 adds little value because P23 remains approximately 1.
+KLZ-NPs,0.0003758460223966,5.9070235490122e-05,84.28339480262213,0.6252991966955267,0.2491467388417673,60.1555958877902,4.42517701807799,Use Case 2 as an extended nanoparticle-sensitive model,Case 2 improves KLZ-NPs fit and suggests altered SC-to-EP partitioning.

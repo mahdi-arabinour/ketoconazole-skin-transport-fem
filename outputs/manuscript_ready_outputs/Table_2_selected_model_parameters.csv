@@ -1,0 +1,15 @@
+formulation,selected_model,parameter,parameter_code,value,unit
+Free KC,Case 1,Effective donor loading,Q0_eff_ug_cm2,485.49943066800313,ug/cm^2
+Free KC,Case 1,SC diffusion coefficient,D2_SC_cm2_h,4.158429186595018e-06,cm^2/h
+Free KC,Case 1,EP/dermis diffusion coefficient,D3_EP_cm2_h,0.0008109087333703,cm^2/h
+Free KC,Case 1,Donor-SC partition coefficient,P12_donor_SC,1.3070265625310953,-
+Free KC,Case 1,SC-EP/dermis partition coefficient,P23_SC_EP,1.0,-
+Free KC,Case 1,EP/dermis-receptor partition coefficient,P34_EP_receptor,0.0029849685984736,-
+Free KC,Case 1,EP/dermis-receptor mass transfer coefficient,K34_cm_h,0.8402178561250153,cm/h
+KLZ-NPs,Case 2,Effective donor loading,Q0_eff_ug_cm2,863.822948853949,ug/cm^2
+KLZ-NPs,Case 2,SC diffusion coefficient,D2_SC_cm2_h,3.961849716857862e-06,cm^2/h
+KLZ-NPs,Case 2,EP/dermis diffusion coefficient,D3_EP_cm2_h,0.0006700380780281,cm^2/h
+KLZ-NPs,Case 2,Donor-SC partition coefficient,P12_donor_SC,1.0254711910182202,-
+KLZ-NPs,Case 2,SC-EP/dermis partition coefficient,P23_SC_EP,4.42517701807799,-
+KLZ-NPs,Case 2,EP/dermis-receptor partition coefficient,P34_EP_receptor,0.0231795156719741,-
+KLZ-NPs,Case 2,EP/dermis-receptor mass transfer coefficient,K34_cm_h,3.0361698624488533,cm/h

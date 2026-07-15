@@ -1,0 +1,8 @@
+parameter,lower_bound,upper_bound
+Q0_eff_ug_cm2,1.0,5000.0
+D2_SC_cm2_h,1e-10,0.01
+D3_EP_cm2_h,1e-08,1.0
+P12_donor_SC,0.001,10000.0
+P23_SC_EP,0.001,10000.0
+P34_EP_receptor,0.001,10000.0
+K34_cm_h,1e-05,100.0

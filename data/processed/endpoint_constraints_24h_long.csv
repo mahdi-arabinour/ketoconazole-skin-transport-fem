@@ -1,0 +1,7 @@
+formulation,compartment,time_h,observed_ug_cm2,data_type,use_for_fitting
+Free KC,EP,24.0,6.2,endpoint_24h,True
+Free KC,R,24.0,26.81,endpoint_24h,True
+Free KC,SC,24.0,0.9,endpoint_24h,True
+KLZ-NPs,EP,24.0,9.4,endpoint_24h,True
+KLZ-NPs,R,24.0,33.19,endpoint_24h,True
+KLZ-NPs,SC,24.0,2.7,endpoint_24h,True

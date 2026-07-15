@@ -1,0 +1,9 @@
+formulation,model_case,time_h,compartment,model_amount_ug_cm2,model_average_concentration_ug_cm3,percent_of_total_model_amount,interpretation_note
+Free KC,Case 1,24.0,Donor,452.04908272820586,994.5079820020529,93.11011593055899,"Model-derived effective donor pool, not experimental donor recovery."
+Free KC,Case 1,24.0,SC,0.9022131397369044,451.1065698684522,0.18583196658201126,
+Free KC,Case 1,24.0,EP/dermis,6.22390778444347,70.72622482322126,1.2819598523531774,
+Free KC,Case 1,24.0,Receptor,26.324227005976955,8.90973837125374,5.422092250505813,
+KLZ-NPs,Case 2,24.0,Donor,818.5846397333543,1800.8862074133795,94.76301142897833,"Model-derived effective donor pool, not experimental donor recovery."
+KLZ-NPs,Case 2,24.0,SC,2.70068786602953,1350.343933014765,0.31264368116902924,
+KLZ-NPs,Case 2,24.0,EP/dermis,9.41531665465092,106.99223471194229,1.0899590786882687,
+KLZ-NPs,Case 2,24.0,Receptor,33.12230458382028,11.210626166831481,3.83438581116436,

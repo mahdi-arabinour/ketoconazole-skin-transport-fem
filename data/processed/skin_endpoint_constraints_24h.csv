@@ -1,0 +1,5 @@
+formulation,compartment,time_h,observed_ug_cm2,data_type,use_for_fitting
+Free KC,EP,24.0,6.2,skin_endpoint_24h,True
+Free KC,SC,24.0,0.9,skin_endpoint_24h,True
+KLZ-NPs,EP,24.0,9.4,skin_endpoint_24h,True
+KLZ-NPs,SC,24.0,2.7,skin_endpoint_24h,True

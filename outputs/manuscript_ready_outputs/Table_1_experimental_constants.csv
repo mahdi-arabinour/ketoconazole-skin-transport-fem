@@ -1,0 +1,8 @@
+parameter,symbol,value,unit,note
+Diffusion area,A,2.2,cm^2,Franz diffusion cell exposure area
+Donor volume,V_D,1.0,mL,Used as equivalent computational donor thickness
+Receptor volume,V_R,6.5,mL,Used to convert receptor amount to receptor concentration
+Total skin thickness,L_skin,0.09,cm,Model skin thickness
+Stratum corneum thickness,L_SC,0.002,cm,20 micrometers
+EP/dermis thickness,L_EP,0.088,cm,Total skin thickness minus SC thickness
+Temperature,T,32.0,degree C,Experimental skin surface temperature

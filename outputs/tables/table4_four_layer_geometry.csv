@@ -1,0 +1,5 @@
+layer_id,layer_name,short_name,concentration_symbol,diffusion_symbol,length_cm,n_elements,role,length_um,start_cm,end_cm
+1,Donor compartment,Donor,C1,D1,0.45454545454545453,20,Computational donor compartment,4545.454545454545,0.0,0.45454545454545453
+2,Stratum corneum,SC,C2,D2,0.002,10,Main barrier layer,20.0,0.45454545454545453,0.45654545454545453
+3,Viable epidermis/dermis,EP/dermis,C3,D3,0.088,100,Deeper skin retention region,880.0,0.4565454545454546,0.5445454545454546
+4,Receptor compartment,Receptor,C4,D4,2.954545454545454,30,Computational receptor compartment,29545.45454545454,0.5445454545454544,3.4990909090909086

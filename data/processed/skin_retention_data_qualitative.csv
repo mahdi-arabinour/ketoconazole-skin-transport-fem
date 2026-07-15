@@ -1,0 +1,33 @@
+formulation,compartment,time_h,Q_ug_cm2
+Free KC,SC,0.5,3.1
+Free KC,SC,1.0,3.3
+Free KC,SC,2.0,2.6
+Free KC,SC,4.0,1.2
+Free KC,SC,6.0,1.2
+Free KC,SC,8.0,0.7
+Free KC,SC,12.0,0.8
+Free KC,SC,24.0,0.9
+KLZ-NPs,SC,0.5,3.0
+KLZ-NPs,SC,1.0,4.4
+KLZ-NPs,SC,2.0,7.1
+KLZ-NPs,SC,4.0,13.5
+KLZ-NPs,SC,6.0,2.7
+KLZ-NPs,SC,8.0,2.2
+KLZ-NPs,SC,12.0,4.5
+KLZ-NPs,SC,24.0,2.7
+Free KC,EP,0.5,2.2
+Free KC,EP,1.0,3.6
+Free KC,EP,2.0,4.3
+Free KC,EP,4.0,6.6
+Free KC,EP,6.0,4.8
+Free KC,EP,8.0,2.9
+Free KC,EP,12.0,3.0
+Free KC,EP,24.0,6.2
+KLZ-NPs,EP,0.5,2.1
+KLZ-NPs,EP,1.0,4.8
+KLZ-NPs,EP,2.0,9.7
+KLZ-NPs,EP,4.0,6.6
+KLZ-NPs,EP,6.0,8.9
+KLZ-NPs,EP,8.0,9.4
+KLZ-NPs,EP,12.0,6.3
+KLZ-NPs,EP,24.0,9.4

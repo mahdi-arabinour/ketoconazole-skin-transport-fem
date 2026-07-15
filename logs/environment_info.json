@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-06-08T21:51:57.608206",
+  "python_version": "3.12.13",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "project_dir": "<repository-root>",
+  "package_name": "ketoconazole-skin-transport-fem",
+  "notebook_found": true,
+  "notebook_copied_to": "code/notebooks/ketoconazole_four_compartment_fem.ipynb"
+}

@@ -1,0 +1,11 @@
+name: ketoconazole-skin-transport-fem
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.0.2
+  - pandas=2.2.2
+  - matplotlib=3.10.0
+  - scipy=1.16.3
+  - openpyxl=3.1.5
+  - jupyterlab

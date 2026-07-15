@@ -1,0 +1,11 @@
+formulation,compartment,time_h,observed_ug_cm2,data_type,use_for_fitting
+Free KC,R,4,0.7,receptor_time_profile,True
+Free KC,R,6,1.8,receptor_time_profile,True
+Free KC,R,8,4.3,receptor_time_profile,True
+Free KC,R,12,10.4,receptor_time_profile,True
+Free KC,R,24,26.81,receptor_time_profile,True
+KLZ-NPs,R,4,1.7,receptor_time_profile,True
+KLZ-NPs,R,6,3.8,receptor_time_profile,True
+KLZ-NPs,R,8,6.7,receptor_time_profile,True
+KLZ-NPs,R,12,13.6,receptor_time_profile,True
+KLZ-NPs,R,24,33.19,receptor_time_profile,True

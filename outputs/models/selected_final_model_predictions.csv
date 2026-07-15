@@ -1,0 +1,15 @@
+formulation,compartment,time_h,observed_ug_cm2,data_type,use_for_fitting,model_ug_cm2,error_ug_cm2,model_case
+Free KC,EP,24.0,6.2,skin_endpoint_24h,True,6.22390778444347,0.0239077844434696,Case 1
+Free KC,R,4.0,0.7,receptor_time_profile,True,1.3742293469222626,0.6742293469222627,Case 1
+Free KC,R,6.0,1.8,receptor_time_profile,True,3.2528100324767677,1.4528100324767672,Case 1
+Free KC,R,8.0,4.3,receptor_time_profile,True,5.5129042946333575,1.2129042946333577,Case 1
+Free KC,R,12.0,10.4,receptor_time_profile,True,10.542268773407567,0.1422687734075687,Case 1
+Free KC,R,24.0,26.81,receptor_time_profile,True,26.324227005976955,-0.4857729940230442,Case 1
+Free KC,SC,24.0,0.9,skin_endpoint_24h,True,0.9022131397369044,0.0022131397369044,Case 1
+KLZ-NPs,EP,24.0,9.4,skin_endpoint_24h,True,9.41531665465092,0.0153166546509186,Case 2
+KLZ-NPs,R,4.0,1.7,receptor_time_profile,True,1.7194182389354054,0.0194182389354053,Case 2
+KLZ-NPs,R,6.0,3.8,receptor_time_profile,True,4.169168079865596,0.3691680798655961,Case 2
+KLZ-NPs,R,8.0,6.7,receptor_time_profile,True,7.0829120156379215,0.3829120156379213,Case 2
+KLZ-NPs,R,12.0,13.6,receptor_time_profile,True,13.449986443643269,-0.1500135563567326,Case 2
+KLZ-NPs,R,24.0,33.19,receptor_time_profile,True,33.12230458382028,-0.0676954161797169,Case 2
+KLZ-NPs,SC,24.0,2.7,skin_endpoint_24h,True,2.70068786602953,0.0006878660295299,Case 2
