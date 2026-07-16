@@ -1,5 +1,7 @@
 # Layer-Resolved Four-Compartment FEM Modeling of Ketoconazole Transport
 
+[![DOI](https://zenodo.org/badge/1301860234.svg)](https://doi.org/10.5281/zenodo.21385650)
+
 This repository contains the computational workflow, digitized modeling inputs, processed data, fitted outputs, numerical verification results, and figure-generation code associated with the manuscript:
 
 **Layer-Resolved Four-Compartment Finite Element Modeling of Ketoconazole Transport through Porcine Skin from Free and Lecithin-Zein Nanoparticle-Based Formulations**
