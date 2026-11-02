@@ -1,0 +1,33 @@
+{
+  "title": "Layer-Resolved Four-Compartment Finite Element Modeling of Ketoconazole Transport through Porcine Skin from Free and Lecithin-Zein Nanoparticle-Based Formulations",
+  "upload_type": "software",
+  "description": "Code, source-derived digitized inputs, locked calibration outputs, verification tests, sensitivity diagnostics, and figure assets supporting a sampling-aware four-compartment finite element model of ketoconazole transport in porcine skin. Experimental values not explicitly reported by the source are approximate figure digitizations; model agreement reflects calibration rather than independent validation. The manuscript and supplementary document are not part of this software deposit. Source experiment: Zhang et al., International Journal of Pharmaceutics 590 (2020), 119894, doi:10.1016/j.ijpharm.2020.119894.",
+  "creators": [
+    {
+      "name": "Sultani, Nargis",
+      "affiliation": "College of Computing, Georgia Institute of Technology, Atlanta, GA 30332, USA"
+    },
+    {
+      "name": "Arabinour, Mahdi",
+      "affiliation": "Department of Mechanical & Aerospace Engineering, University of Miami, Coral Gables, FL 33146, USA"
+    },
+    {
+      "name": "Zhou, Xiangyang",
+      "affiliation": "Department of Mechanical & Aerospace Engineering, University of Miami, Coral Gables, FL 33146, USA"
+    },
+    {
+      "name": "Tayebi, Lobat",
+      "affiliation": "Institute for Engineering in Medicine, Health, & Human Performance (EnMed) and Department of Electrical and Computer Engineering, Biomedical Engineering Program, Batten College of Engineering and Technology, Old Dominion University, Norfolk, VA, 23529, USA"
+    }
+  ],
+  "notes": "Corresponding author: Lobat Tayebi (ltayebi@odu.edu)",
+  "keywords": [
+    "finite element modeling",
+    "skin transport",
+    "ketoconazole",
+    "Franz diffusion cell",
+    "nanoparticle formulation"
+  ],
+  "license": "mit",
+  "version": "1.1.0"
+}

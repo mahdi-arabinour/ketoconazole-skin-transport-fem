@@ -1,0 +1,67 @@
+{
+  "status": "DIAGNOSTIC, NOT INDEPENDENT VALIDATION",
+  "scope": "Identifiability checks on locked Step02 model, not additional experimental data",
+  "observations_per_formulation": 7,
+  "receptor_timepoints": 5,
+  "skin_endpoints": 2,
+  "case1_free_parameters": 6,
+  "case2_free_parameters": 7,
+  "uncertainty": "Experimental error variance and graphical digitization distribution unavailable; diagnostics cannot establish confidence intervals, statistical model preference, posterior distributions, or unique coefficients.",
+  "svd": [
+    {
+      "formulation": "Free KC",
+      "model_case": "Case 1",
+      "n_obs": 7,
+      "n_parameters": 6,
+      "objective": 0.0010393862797998814,
+      "s1": 2.2600077018500895,
+      "s_min": 4.9665706082656895e-09,
+      "condition_number": 455043908.58529985,
+      "rank_rel_1e_minus_3": 3,
+      "rank_rel_1e_minus_6": 5,
+      "boundary_values": ""
+    },
+    {
+      "formulation": "Free KC",
+      "model_case": "Case 2",
+      "n_obs": 7,
+      "n_parameters": 7,
+      "objective": 0.0007521599542691455,
+      "s1": 2.315902784998454,
+      "s_min": 5.277161452298245e-10,
+      "condition_number": 4388538811.883159,
+      "rank_rel_1e_minus_3": 3,
+      "rank_rel_1e_minus_6": 5,
+      "boundary_values": ""
+    },
+    {
+      "formulation": "KLZ-NPs",
+      "model_case": "Case 1",
+      "n_obs": 7,
+      "n_parameters": 6,
+      "objective": 0.0003380321845156492,
+      "s1": 2.309876877909307,
+      "s_min": 3.1277952356595006e-09,
+      "condition_number": 738500030.8123642,
+      "rank_rel_1e_minus_3": 3,
+      "rank_rel_1e_minus_6": 5,
+      "boundary_values": ""
+    },
+    {
+      "formulation": "KLZ-NPs",
+      "model_case": "Case 2",
+      "n_obs": 7,
+      "n_parameters": 7,
+      "objective": 4.312964159935287e-05,
+      "s1": 2.19525043851115,
+      "s_min": 8.766267511852273e-10,
+      "condition_number": 2504201971.4126925,
+      "rank_rel_1e_minus_3": 4,
+      "rank_rel_1e_minus_6": 5,
+      "boundary_values": ""
+    }
+  ],
+  "profile_grid": "0.2,0.5,1,2,4,8,12 and each Step02 baseline value; six other parameters refitted with limited iterations.",
+  "source_data_unchanged": true,
+  "locked_step02_parameters_unchanged": true
+}

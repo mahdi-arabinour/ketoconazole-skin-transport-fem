@@ -1,0 +1,1 @@
+PASS: all 18 reconciliation decisions match source-canonical CSV; every processed input matches, all SI S2/S3/S4 values agree, both Word files document source precision, 4 stored fits and sample mass ledger consistent.

@@ -1,0 +1,16 @@
+{
+  "checkpoint": "Step04",
+  "locked_scientific_files_identical": 81,
+  "preexisting_media_unchanged": true,
+  "equation_count": 10,
+  "changed_or_reformatted_equations": [
+    3,
+    8,
+    9,
+    10
+  ],
+  "new_SI_table": "S19",
+  "objective_verified_for_four_locked_fits": true,
+  "reoptimization_performed": false,
+  "submission_ready": false
+}

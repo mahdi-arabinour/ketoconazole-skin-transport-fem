@@ -12,8 +12,8 @@ Free KC,SC,1.0,3.3,skin_time_profile_qualitative,False
 Free KC,SC,2.0,2.6,skin_time_profile_qualitative,False
 Free KC,SC,4.0,1.2,skin_time_profile_qualitative,False
 Free KC,SC,6.0,1.2,skin_time_profile_qualitative,False
-Free KC,SC,8.0,0.7,skin_time_profile_qualitative,False
-Free KC,SC,12.0,0.8,skin_time_profile_qualitative,False
+Free KC,SC,8.0,0.6,skin_time_profile_qualitative,False
+Free KC,SC,12.0,0.7,skin_time_profile_qualitative,False
 Free KC,SC,24.0,0.9,skin_time_profile_qualitative,False
 KLZ-NPs,EP,0.5,2.1,skin_time_profile_qualitative,False
 KLZ-NPs,EP,1.0,4.8,skin_time_profile_qualitative,False
@@ -25,7 +25,7 @@ KLZ-NPs,EP,12.0,6.3,skin_time_profile_qualitative,False
 KLZ-NPs,EP,24.0,9.4,skin_time_profile_qualitative,False
 KLZ-NPs,SC,0.5,3.0,skin_time_profile_qualitative,False
 KLZ-NPs,SC,1.0,4.4,skin_time_profile_qualitative,False
-KLZ-NPs,SC,2.0,7.1,skin_time_profile_qualitative,False
+KLZ-NPs,SC,2.0,7.2,skin_time_profile_qualitative,False
 KLZ-NPs,SC,4.0,13.5,skin_time_profile_qualitative,False
 KLZ-NPs,SC,6.0,2.7,skin_time_profile_qualitative,False
 KLZ-NPs,SC,8.0,2.2,skin_time_profile_qualitative,False

@@ -1,0 +1,4 @@
+PASS Free KC Case 1 max difference vs independent BDF solver 4.832710338575907e-07 total rel error 5.7870730070154045e-11
+PASS KLZ-NPs Case 2 max difference vs independent BDF solver 4.542539766561049e-07 total rel error 3.1609637616272897e-10
+Sampling correction tests all passed.
+

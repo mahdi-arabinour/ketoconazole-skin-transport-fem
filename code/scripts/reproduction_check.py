@@ -1,40 +1,33 @@
+"""Verify required archived computational artifacts and numerical mass balances.
 
-# reproduction_check.py
-# This script checks whether key outputs required for manuscript reproducibility are present.
-
-import os
+The current manuscript and SI are supplied separately and are NOT required.
+"""
+from pathlib import Path
 import pandas as pd
-
-PACKAGE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-
-required_files = [
-    "outputs/models/selected_final_model_parameters.csv",
-    "outputs/models/selected_final_model_predictions.csv",
-    "outputs/models/selected_final_model_metrics.csv",
-    "outputs/tables/endpoint_compartment_balance_24h_long.csv",
-    "outputs/tables/endpoint_experimental_vs_model_24h_measured_compartments.csv",
-    "outputs/manuscript_ready_outputs/Figure_registry.csv"
+import numpy as np
+root=Path(__file__).resolve().parents[2]
+needed=[
+    'data/provenance/STEP02_CANONICAL_PORCINE_PROFILE.csv',
+    'data/provenance/STEP02_18_DISCREPANCY_AUDIT.csv',
+    'data/processed/fem_fit_data_master.csv',
+    'outputs/models/selected_final_model_parameters.csv',
+    'outputs/models/selected_final_model_dense_simulation.csv',
+    'outputs/models/selected_final_model_metrics.csv',
+    'outputs/tables/endpoint_compartment_balance_24h_long.csv',
+    'outputs/tables/endpoint_experimental_vs_model_24h_measured_compartments.csv',
+    'outputs/tables/mass_conservation_including_samples.csv',
+    'outputs/tables/mesh_independence_summary.csv',
+    'outputs/step02/source_reconciled_all_cases_parameters.csv',
+    'outputs/step03/local_svd_summary.csv',
+    'outputs/step03/fixed_other_parameter_perturbations.csv',
 ]
-
-print("Checking package:", PACKAGE_DIR)
-
-missing = []
-
-for rel_path in required_files:
-    path = os.path.join(PACKAGE_DIR, rel_path)
-    if os.path.exists(path):
-        print("[OK]", rel_path)
-    else:
-        print("[MISSING]", rel_path)
-        missing.append(rel_path)
-
-if missing:
-    raise FileNotFoundError("Missing required files: " + ", ".join(missing))
-
-metrics_path = os.path.join(PACKAGE_DIR, "outputs/models/selected_final_model_metrics.csv")
-metrics = pd.read_csv(metrics_path)
-
-print("\nSelected final model metrics:")
-print(metrics)
-
-print("\nReproduction check completed successfully.")
+for p in needed:
+    assert (root/p).is_file(),f'Missing: {p}'
+print('PASS: required numerical and provenance files found:',len(needed))
+a=pd.read_csv(root/'outputs/tables/mass_conservation_including_samples.csv')
+assert len(a)==2 and np.max(abs(a.relative_error))<1e-7
+b=pd.read_csv(root/'outputs/tables/mesh_independence_summary.csv')
+assert np.max(b[b.mesh=='Base'].relative_difference_percent)<0.001
+c=pd.read_csv(root/'data/provenance/STEP02_18_DISCREPANCY_AUDIT.csv')
+assert len(c)==18 and sorted(c.compartment.value_counts().to_dict().items())==[('EP',13),('R',2),('SC',3)]
+print('PASS: source provenance, numerical conservation and mesh-independence checkpoints.')

@@ -1,0 +1,11 @@
+equation_number,description,step04_outcome,code_cross_check
+1,Within-domain conservation and Fickian diffusion,Verified unchanged,M ydot=(F-K)y; D_i in cm2/h
+2,Donor initial concentration / availability,Verified unchanged,C1=Q0_eff/L_donor; C2-4=0
+3,Neumann zero external flux,Repaired,"dC/dx at x0,xL not dC/dt"
+4,Interfacial transfer and admissible interfaces,Set notation corrected in explanatory text,"J_ij=K_ij(Ci/Pij-Cj), J={(1,2),(2,3),(3,4)}"
+5,Large-transfer limit,Verified unchanged,"K12,K23 fixed 100 cm/h"
+6,Mass per unit membrane area,Verified unchanged,Qi integral concentration over layer length
+7,Receptor present mass,Verified unchanged,"Q4=V_R/A*C_R, not cumulative after withdrawals"
+8,Case 1 fit parameter vector,Repaired,"6 optimized: Q0eff,D2,D3,P12,P34,K34; P23 fixed 1"
+9,Case 2 fit parameter vector,Typographic normalization,"7 optimized: Q0eff,D2,D3,P12,P23,P34,K34"
+10,Dimensionless weighted fit objective,Repaired and expanded,Phi=(1/5)*sum ReceptorNormResidual^2+SCNormResidual24^2+EPNormResidual24^2

@@ -1,0 +1,76 @@
+{
+  "mesh_base_agreement": "passed",
+  "cumulative_recovery_includes_removed_samples": true,
+  "source_digitization_mismatches_after_step02": 0,
+  "selected_cases": {
+    "Free KC": "Case 1",
+    "KLZ-NPs": "Case 2"
+  },
+  "sampler_VR_mL": 6.5,
+  "sampled_VS_mL": 5.0,
+  "times_h": [
+    1.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    12.0,
+    24.0
+  ],
+  "total_mass_error": [
+    {
+      "formulation": "Free KC",
+      "model_case": "Case 1",
+      "initial_ug_cm2": 486.56168720592507,
+      "terminal_sum_including_samples_ug_cm2": 486.56168708824805,
+      "absolute_error_ug_cm2": -1.1767701835196931e-07,
+      "relative_error": -2.418542631823896e-10
+    },
+    {
+      "formulation": "KLZ-NPs",
+      "model_case": "Case 2",
+      "initial_ug_cm2": 867.1921509211518,
+      "terminal_sum_including_samples_ug_cm2": 867.1921504911129,
+      "absolute_error_ug_cm2": -4.3003888094972353e-07,
+      "relative_error": -4.958980319332067e-10
+    }
+  ],
+  "performance": [
+    {
+      "formulation": "Free KC",
+      "model_case": "Case 1",
+      "RMSE_receptor_ug_cm2": 0.8635947216967284,
+      "MAE_receptor_ug_cm2": 0.7537104474554754,
+      "R2_receptor": 0.9918760619200638,
+      "n_receptor": 5,
+      "objective": 0.0010393862795186
+    },
+    {
+      "formulation": "Free KC",
+      "model_case": "Case 2",
+      "RMSE_receptor_ug_cm2": 0.7346120427750957,
+      "MAE_receptor_ug_cm2": 0.6452143833843402,
+      "R2_receptor": 0.9941215512896524,
+      "n_receptor": 5,
+      "objective": 0.0007521599531551
+    },
+    {
+      "formulation": "KLZ-NPs",
+      "model_case": "Case 1",
+      "RMSE_receptor_ug_cm2": 0.6095038326682667,
+      "MAE_receptor_ug_cm2": 0.5644682589469683,
+      "R2_receptor": 0.9971590414497977,
+      "n_receptor": 5,
+      "objective": 0.0003380321837907
+    },
+    {
+      "formulation": "KLZ-NPs",
+      "model_case": "Case 2",
+      "RMSE_receptor_ug_cm2": 0.21796870583468533,
+      "MAE_receptor_ug_cm2": 0.19011858462892897,
+      "R2_receptor": 0.9996366707964247,
+      "n_receptor": 5,
+      "objective": 4.312964164941381e-05
+    }
+  ]
+}
